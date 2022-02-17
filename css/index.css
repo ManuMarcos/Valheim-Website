@@ -9,7 +9,15 @@
     background-attachment: fixed;
     background-repeat: repeat-y;
     background-color: #14171a;
+    padding-bottom: 0px;
 }
+
+body{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
 
 
 /*--------------------Header + Nav Bar--------------------*/
@@ -86,9 +94,7 @@ a:hover{
     align-self: flex-end;
 }
 
-.reviews{
-    border: solid black 5px;
-}
+
 
 
 
@@ -99,6 +105,23 @@ a:hover{
 
 #carousel-container{
     padding: 50px 0px;
+}
+
+/*--------------------Footer--------------------*/
+.footer{
+    margin-top: 20px;
+    background-color: black;
+    padding: 8px;
+}
+
+
+.footer ul{
+    margin-bottom: 0px;
+    gap: 20px;
+}
+
+.footer li{
+    display: inline-block;
 }
 
 
@@ -123,6 +146,10 @@ a:hover{
 
 .violet{
     background-color: violet;
+}
+
+.green{
+    background-color: green;
 }
 
 
