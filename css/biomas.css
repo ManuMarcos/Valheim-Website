@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#body-background{
+    background-image: url("../assets/images/fondo-valheim.png"), url("../assets/images/background-section2.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-color: #14171a;
+    padding-bottom: 0px;
+}
+
+body{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+/*--------------------Header + Nav Bar--------------------*/
+
+#header{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../assets/images/header-background.png");
+    background-size: cover;
+    
+}
+
+.navbar-nav{
+    margin-left: 16%;
+    gap: 40px;
+}
+
+.navbar-nav .nav-link{
+    display: block;
+    background: black;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 17px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(119, 31, 31) !important;
+}
+
+
+
+
+
+
+.rojo{
+    background-color: red;
+}
+
+.cyan{
+    background-color: cyan;
+}
+
+.yellow{
+    background-color: rgb(255, 255, 139);
+}
+
+.violet{
+    background-color: violet;
+}
+
+.green{
+    background-color: green;
+}
