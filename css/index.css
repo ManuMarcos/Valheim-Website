@@ -17,12 +17,8 @@ body{
     margin-bottom: 0px;
 }
 
-body p{
+body p, span, h4{
     font-family: 'Brygada 1918', serif;
-}
-
-h1{
-    font-family: 'Special Elite', cursive;
 }
 
 
@@ -34,12 +30,13 @@ h1{
     padding: 0px;
     background-image: url("../assets/images/header-background.png");
     background-size: cover;
+    background-position: fixed;
     
 }
 
 .navbar-nav{
     margin-left: 16%;
-    gap: 40px;
+    gap: 35px;
 }
 
 .navbar-nav .nav-link{
@@ -92,17 +89,14 @@ a:hover{
 }
 
 .reviews p{
-    font-family: 'Courgette', cursive;
     color:whitesmoke;
     font-size: 17px;
     text-justify: distribute;
 }
 
 .reviews span{
-    font-family: 'Courgette', cursive;
     color:whitesmoke;
     font-size: 15px;
-    align-self: flex-end;
 }
 
 
