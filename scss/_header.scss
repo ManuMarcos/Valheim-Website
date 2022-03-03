@@ -1,0 +1,31 @@
+/*----------Header + Nav---------*/
+
+#header{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/assets/images/header-background.png"); 
+    background-size: cover;
+
+    .navbar-nav{
+        margin-left: 16%;
+        gap: 35px; 
+    }
+    .nav-link{
+        display: block;
+        background: black;
+        padding: 10px;
+        font-weight: 900;
+        font-size: 17px;
+        border: 3px solid black;
+        border-radius: 0.4em;
+        box-shadow: 0.1em 0.1em;
+        color: whitesmoke;
+        text-decoration: none;  
+        a {
+           color: #771f1f !important;
+        }       
+            &:hover{
+            color: #771f1f !important;
+            }
+    }
+}

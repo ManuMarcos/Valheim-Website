@@ -1,3 +1,6 @@
+@import "header", "footer", "cards";
+
+
 *{
     padding: 0;
     margin: 0;
@@ -19,47 +22,24 @@ body{
 
 body p, span, h4{
     font-family: 'Brygada 1918', serif;
-}
-
-
-
-/*--------------------Header + Nav Bar--------------------*/
-
-#header{
-    margin: 0px;
-    padding: 0px;
-    
-    background-size: cover;
-    background-position: fixed;
-    
-}
-
-
-.navbar-nav{
-    margin-left: 16%;
-    gap: 35px;
-}
-
-.navbar-nav .nav-link{
-    display: block;
-    background: black;
-    padding: 10px;
-    font-weight: 900;
-    font-size: 17px;
-    border: 3px solid black;
-    border-radius: 0.4em;
-    box-shadow: 0.1em 0.1em;
     color: whitesmoke;
-    text-decoration: none;
 }
 
-a:hover{
-    color: rgb(119, 31, 31) !important;
+h1, h5{
+    font-family: 'Special Elite', cursive;
+    color: whitesmoke;
 }
 
-.nav-link a{
-    color: rgb(119, 31, 31) !important; 
+/*--------------------Main--------------------*/
+
+h1{
+    text-align: center;
 }
+
+main{
+    margin-top: 1em;
+}
+
 
 /*--------------------Awards Aside--------------------*/
 
@@ -101,13 +81,6 @@ a:hover{
 }
 
 
-.footer{
-    /* Esto es una prueba */
-    color: red;
-}
-
-
-
 .carousel-item{
     background-color: orange;
 }
@@ -118,48 +91,6 @@ a:hover{
 
 
 
-/*--------------------Footer--------------------*/
-.footer{
-    margin-top: 20px;
-    background-color: black;
-    padding: 8px;
-}
-
-
-.footer ul{
-    margin-bottom: 0px;
-    gap: 20px;
-}
-
-.footer li{
-    display: inline-block;
-}
-
-
-#logo{
-    margin-left: 0px;
-    background-color: cyan;
-}
-
-.rojo{
-    background-color: red;
-}
-
-.cyan{
-    background-color: cyan;
-}
-
-.yellow{
-    background-color: rgb(255, 255, 139);
-}
-
-.violet{
-    background-color: violet;
-}
-
-.green{
-    background-color: green;
-}
 
 
 
