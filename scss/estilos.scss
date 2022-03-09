@@ -1,5 +1,15 @@
-@import "header", "footer", "cards";
+/*---------------Variables----------------*/
+$body_background1 : url("../assets/images/smoke_background.png");
+$body_background2 : url("../assets/images/trees_background.png");
+$font_titles: 'Special Elite', cursive;
+$styles_map: (
+    "background_color": #14171a,
+    "color_font": whitesmoke,
+    "danger":red,
+);
 
+/*---------------Fuentes----------------*/
+@import "header", "footer", "cards", url('https://fonts.googleapis.com/css2?family=Brygada+1918&display=swap'), url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Special+Elite&display=swap');
 
 *{
     padding: 0;
@@ -7,11 +17,11 @@
 }
 
 #body-background{
-    background-image: url("../assets/images/fondo-valheim.png"), url("../assets/images/background-section2.png");
+    background-image: $body_background1, $body_background2;
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: repeat-y;
-    background-color: #14171a;
+    background-color: map-get($map: $styles_map, $key: background_color);
     padding-bottom: 0px;
 }
 
@@ -20,14 +30,19 @@ body{
     margin-bottom: 0px;
 }
 
-body p, span, h4{
+body p, span, h4, label{
     font-family: 'Brygada 1918', serif;
-    color: whitesmoke;
+    color: map-get($map: $styles_map, $key: color_font);
 }
 
-h1, h5{
+h1, h5, h2, h3{
     font-family: 'Special Elite', cursive;
-    color: whitesmoke;
+    color: map-get($map: $styles_map, $key: color_font);
+}
+
+.underline_h2{
+    @extend h2;
+    text-decoration: underline;
 }
 
 /*--------------------Main--------------------*/
@@ -40,7 +55,22 @@ main{
     margin-top: 1em;
 }
 
+.table{
+    color: map-get($styles_map, color_font) !important;
+}
 
+.jefes .row{
+    margin-top: 10px;
+}
+
+.tabla-biomas{
+    margin: 10px 10px;
+}
+
+
+/* form{
+    background-color: map-get($map: $styles_map, $key: danger);
+} */
 /*--------------------Awards Aside--------------------*/
 
 .awards-aside img{
@@ -61,7 +91,7 @@ main{
 
 .awards-aside h4{
     font-family: 'Quintessential', cursive;
-    color:whitesmoke;
+    color: map-get($map: $styles_map, $key: color_font);
     font-size: 17px;
     text-justify: auto;
     width: 135px;
@@ -70,13 +100,13 @@ main{
 }
 
 .reviews p{
-    color:whitesmoke;
+    color:map-get($map: $styles_map, $key: color_font);
     font-size: 17px;
     text-justify: distribute;
 }
 
 .reviews span{
-    color:whitesmoke;
+    color:map-get($map: $styles_map, $key: color_font);
     font-size: 15px;
 }
 

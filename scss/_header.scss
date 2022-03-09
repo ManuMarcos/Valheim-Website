@@ -19,7 +19,7 @@
         border: 3px solid black;
         border-radius: 0.4em;
         box-shadow: 0.1em 0.1em;
-        color: whitesmoke;
+        color: map-get($map: $styles_map, $key: color_font);
         text-decoration: none;  
         a {
            color: #771f1f !important;
