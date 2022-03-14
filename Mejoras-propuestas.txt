@@ -1,0 +1,6 @@
+- Ver problema con el fondo del header al expandir menu hamburguesa
+- Ver problema de tamaño con una imagen del apartado "Acerca"
+- Buscar una forma de visualizar mejor las imagenes en "Biomas"
+- Buscar una forma de ajustar el tamaño de las imagenes de los jefes al tamaño del contenedor de texto adyacente. Apartado "Jefes"
+- Buscar alguna herramienta backend para recibir los datos cargados en el formulario 
+- Corregir movimiento en vertical del footer en el apartado de "Inicio"
