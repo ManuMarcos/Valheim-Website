@@ -16,7 +16,16 @@
   }
   #header .nav-link {
     display: block;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    font-weight: 900;
+    font-size: 17px;
+    text-shadow: 0.1em 0.1em black;
+  }
+  #header .nav-link:hover {
+    color: #771f1f;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -126,6 +135,10 @@ main {
   margin-top: 10px;
 }
 
+.jefes img {
+  border-radius: 5px;
+}
+
 .tabla-biomas {
   margin: 10px 10px;
 }
@@ -181,6 +194,11 @@ main {
   position: absolute;
 }
 
+.reviews {
+  display: flex;
+  margin: 10px;
+}
+
 .reviews p {
   color: whitesmoke;
   font-size: 17px;
@@ -190,6 +208,7 @@ main {
 .reviews span {
   color: whitesmoke;
   font-size: 15px;
+  align-self: flex-end;
 }
 
 .carousel-item {

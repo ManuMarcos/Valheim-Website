@@ -63,6 +63,10 @@ main{
     margin-top: 10px;
 }
 
+.jefes img{
+    border-radius: 5px;
+}
+
 .tabla-biomas{
     margin: 10px 10px;
 }
@@ -86,6 +90,7 @@ main{
             border-color: #771f1f;
         }
 }
+
 
 
 /* form{
@@ -119,6 +124,11 @@ main{
     position: absolute;
 }
 
+.reviews{
+    display: flex;
+    margin: 10px;
+}
+
 .reviews p{
     color:map-get($map: $styles_map, $key: color_font);
     font-size: 17px;
@@ -128,6 +138,8 @@ main{
 .reviews span{
     color:map-get($map: $styles_map, $key: color_font);
     font-size: 15px;
+    align-self: flex-end;
+    
 }
 
 

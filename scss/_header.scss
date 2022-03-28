@@ -16,7 +16,17 @@
         }
         .nav-link{
             display: block;
-            width: 100%; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: map-get($map: $styles_map, $key: color_font);
+            font-weight: 900;
+            font-size: 17px;
+            text-shadow: 0.1em 0.1em black;
+            &:hover{
+                color:#771f1f;
+            }
+            
         }
     }
 }
