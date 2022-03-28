@@ -6,32 +6,50 @@
 #header {
   margin: 0px;
   padding: 0px;
-  background-image: url("../assets/images/header-background.png");
+  background-image: url("../assets/images/prueba-fondo.png");
   background-size: cover;
 }
-#header .navbar-nav {
-  margin-left: 16%;
-  gap: 35px;
-}
-#header .nav-link {
-  display: block;
-  background: black;
-  padding: 10px;
-  font-weight: 900;
-  font-size: 17px;
-  border: 3px solid black;
-  border-radius: 0.4em;
-  box-shadow: 0.1em 0.1em;
-  color: whitesmoke;
-  text-decoration: none;
-}
-#header .nav-link a {
-  color: #771f1f !important;
-}
-#header .nav-link:hover {
-  color: #771f1f !important;
-}
 
+@media only screen and (max-width: 992px) {
+  #header .nav-item {
+    width: 100%;
+  }
+  #header .nav-link {
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .nav-link {
+    display: block;
+    background: black;
+    padding: 10px;
+    font-weight: 900;
+    font-size: 17px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  .nav-link a {
+    color: #771f1f !important;
+  }
+  .nav-link:hover {
+    color: #771f1f !important;
+  }
+  .nav-link:focus {
+    color: #771f1f !important;
+  }
+
+  .navbar-brand {
+    padding-right: 20px;
+  }
+
+  .navbar-nav {
+    gap: 20px;
+  }
+}
 /*--------------------Footer--------------------*/
 .footer {
   margin-top: 20px;
@@ -110,6 +128,27 @@ main {
 
 .tabla-biomas {
   margin: 10px 10px;
+}
+
+.contacto-container {
+  margin-bottom: 10px;
+}
+
+.contacto-container button {
+  background-color: black;
+  font-weight: 900;
+  font-size: 17px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+.contacto-container button:hover {
+  color: #771f1f;
+  background-color: black;
+  border-color: #771f1f;
 }
 
 /* form{

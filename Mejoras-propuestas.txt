@@ -1,4 +1,4 @@
-- Ver problema con el fondo del header al expandir menu hamburguesa
+- Ver problema con el fondo del header al expandir menu hamburguesa (Solucionar con Media Queries)
 - Ver problema de tamaño con una imagen del apartado "Acerca"
 - Buscar una forma de visualizar mejor las imagenes en "Biomas"
 - Buscar una forma de ajustar el tamaño de las imagenes de los jefes al tamaño del contenedor de texto adyacente. Apartado "Jefes"

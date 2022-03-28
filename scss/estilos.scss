@@ -67,6 +67,26 @@ main{
     margin: 10px 10px;
 }
 
+.contacto-container{
+    margin-bottom: 10px;
+}
+.contacto-container button{
+    background-color: black;
+    font-weight: 900;
+    font-size: 17px;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    color: map-get($map: $styles_map, $key: color_font);
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;     
+        &:hover{
+            color: #771f1f;
+            background-color: black;
+            border-color: #771f1f;
+        }
+}
+
 
 /* form{
     background-color: map-get($map: $styles_map, $key: danger);

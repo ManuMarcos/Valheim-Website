@@ -3,13 +3,25 @@
 #header{
     margin: 0px;
     padding: 0px;
-    background-image: url("../assets/images/header-background.png"); 
+    background-image: url("../assets/images/prueba-fondo.png");
     background-size: cover;
+}
 
-    .navbar-nav{
-        margin-left: 16%;
-        gap: 35px; 
+
+
+@media only screen and (max-width: 992px){
+    #header{
+        .nav-item{
+            width: 100%;
+        }
+        .nav-link{
+            display: block;
+            width: 100%; 
+        }
     }
+}
+
+@media only screen and (min-width: 992px){
     .nav-link{
         display: block;
         background: black;
@@ -27,5 +39,15 @@
             &:hover{
             color: #771f1f !important;
             }
+            &:focus{
+                color:#771f1f !important;
+            }
     }
+    .navbar-brand{
+        padding-right: 20px;
+    }
+    .navbar-nav{
+        gap: 20px;
+    }
+    
 }
